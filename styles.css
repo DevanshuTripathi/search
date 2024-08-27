@@ -1,0 +1,112 @@
+*{
+    background-color: #202124;
+}
+form { 
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#search{
+    width: 500px;
+    height:38px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid white;
+    border-radius: 25px;
+    padding-left:20px;
+    color:white;
+    font-size: 20px;
+}
+#search:hover {
+    background-color: #303134;
+    border: 0.5px solid #303134;
+}
+#submitbutton{    
+    display:flex;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#submit, #lucky{
+    background-color: #303134;
+    color:white;
+    border:none;
+    margin-top:25px;
+    margin-right:15px;
+    width:130px;
+    height:35px;
+    border-radius:5px;
+}
+#submit:hover, #lucky:hover{
+    border:1px solid white;
+}
+#options{
+    display: flex; 
+    justify-content: flex-end;
+}
+#image, #nsearch, #adv{
+    color:white;
+    text-decoration: none;
+    font-size:17px;
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#image:hover, #nsearch:hover, #adv:hover{
+    text-decoration: underline;
+}
+#google{
+    width:300px;
+}
+#logo{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    font-family: sans-serif;
+    color:#F28B82;
+    margin-left:20px;
+}
+p{
+    font-family: sans-serif;
+    color:white;
+}
+label{
+    font-family: sans-serif;
+    color:gray;
+    margin:10px;
+    margin-left:0px;
+    margin-bottom:16px;
+    float:left;
+}
+#form{
+    margin-left:30px;
+}
+#textbox{
+    border: 1px solid gray;
+    width:600px;
+    height:22px;
+    float:right;
+    margin:10px;
+    margin-left:50px;
+    color:white;
+}
+#textbox:focus{
+    outline:1px solid blue;
+}
+#button{
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+}
+#advsubmit{
+    background-color: blue;
+    color:white;
+    border:none;
+    width:130px;
+    height:35px;
+    margin-top:10px;
+}
+#advsubmit:hover{
+    background-color:#5588CA ;
+}
